@@ -1,0 +1,201 @@
+html, body {
+    font-family: 'Heebo', sans-serif;
+    font-size: 15px;
+    line-height: 26px;
+    color: #666666;
+}
+
+.bg-image {
+    background: url(../IMAGES/Future.jpg) no-repeat;
+    background-size: cover;
+    height: 400px;
+   }
+
+.mask{
+    background-color: rgba(190, 56, 156, 0.186);
+}
+
+.mask .btn {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(247, 240, 240);
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+
+  .mask .btn:hover {
+    color: rgb(247, 87, 87);
+  background-color: white;
+  }
+
+   .navbar-nav li a {
+    font-size: 15px;
+    font-weight:bold;
+  }
+
+  .navbar-nav li a.active{
+    color: rgb(0, 0, 0) !important;
+  }
+
+  .navbar-nav li a:hover{
+    color: rgb(247, 87, 87) !important;
+  }
+
+  .felssa{
+    background-color: rgb(247, 87, 87);
+    border: #000;
+   }
+
+   root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -ms-overflow-style: scrollbar;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.abaathli {
+    
+    background-color:rgb(247, 87, 87) ;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+.howa{
+    margin-left: 520px;
+}
+.abaathli h2{
+    color: #000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+}
+.desc{
+    font-family: 'Times New Roman', Times, serif;
+}
+.abaathli .wssel{
+    margin-top: 10px;
+    height: 40px;
+    width: 70px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(247, 240, 240);
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+   
+}
+.banner-wrapper {
+    position: relative;
+    background-color:rgb(247, 87, 87);
+    
+}
+.banner-wrapper .page-title {
+    margin: 0;
+    color: #fff;
+}
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.2;
+    color: #032B2B;
+    margin-top: 12px;
+    margin-bottom: 18px;
+    font-weight: 500;
+}
+h1 {
+    font-size: 68px;
+}
+.h1, h1 {
+    font-size: 2.5rem;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+feuille de style de l’agent utilisateur
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+html, body {
+    font-family: 'Heebo', sans-serif;
+    font-size: 15px;
+    line-height: 26px;
+    color: #666666;
+}
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+
+.section-maps .map-wrap .maps-info .maps-info-inner .desc p {
+    color: #032B2B;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 30px;
+}
